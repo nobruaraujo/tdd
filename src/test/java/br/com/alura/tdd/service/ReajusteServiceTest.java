@@ -40,6 +40,8 @@ public class ReajusteServiceTest {
 		service.concederReajuste(funcionario, Desempenho.OTIMO);
 		
 		assertEquals(new BigDecimal("1300.00"), funcionario.getSalario());
+		
+		
 	}
 
 }
